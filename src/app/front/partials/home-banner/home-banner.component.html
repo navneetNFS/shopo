@@ -1,0 +1,18 @@
+<ng-container *ngIf="Banners.length > 0">
+  <section class="home-banner">
+    <owl-carousel-o [options]="customOptions" class="theme-nav">
+      <ng-template carouselSlide *ngFor="let slide of Banners;let i = index">
+        <div class="slide_image">
+          <!-- <img src="http://localhost:3000/images/{{slide.image}}" alt="banner" /> -->
+          <!-- <img src="{{baseImageUrl}}/{{slide.image}}" alt="banner" /> -->
+          <img src="{{baseImageUrl}}/{{slide.image}}" alt="banner" />
+          <div class="context">
+            <div class="container">
+              <div class="context_box" [innerHTML]="slide.content"></div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </section>
+</ng-container>

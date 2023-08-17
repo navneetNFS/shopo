@@ -1,0 +1,24 @@
+*{
+  color: #333;
+}
+
+html{
+  font-size: 10px;
+}
+
+body {
+  padding-top: 115px;
+  color: $button-color;
+  background-color: #f8f8f8;
+  font-family: $font !important;
+  font-size: 1.6rem !important;
+}
+
+a , button{
+  color: $button-color;
+  text-decoration: none !important;
+  &:hover{
+    color: $button-color;
+  }
+}
+

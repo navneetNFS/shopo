@@ -1,0 +1,47 @@
+.container {
+  max-width: 1260px;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.nav-link {
+  color: $button-color !important;
+}
+
+
+
+.breadcrumb {
+  background-color: transparent !important;
+
+  * {
+    font-size: 14px !important;
+  }
+}
+
+.visually-hidden {
+  display: none;
+}
+
+
+.rating {
+  * {
+    font-size: 27px;
+  }
+
+  span {
+    color: $star;
+  }
+}
+
+// jumbotron
+.jumbotron {
+  background-color: rgb(255, 250, 239);
+  padding: 35px 2rem;
+  margin-bottom: 0 !important;
+
+  .jumbo-title {
+    font-size: 25px;
+  }
+}

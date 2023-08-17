@@ -1,0 +1,31 @@
+.product-sidebar{
+  background-color: #fff;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+h6{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+ul{
+  li{
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 10px;
+    }
+  }
+}
+::ng-deep{
+  .mat-checkbox-layout .mat-checkbox-label{
+    font-size: 14px;
+  }
+}
+
+.price-range{
+  font-size: 13px;
+}
+}
+
+
+.top-product .col-lg-4 {
+  margin-bottom: 20px;
+}

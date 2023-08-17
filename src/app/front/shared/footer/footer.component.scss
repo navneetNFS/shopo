@@ -1,0 +1,22 @@
+footer {
+  padding: 50px 0px 25px;
+  background: #fff;
+  h6{
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  ul{
+    margin: 0;
+    li{
+      margin-bottom: 10px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  p , a{
+    color: #a5a5a5;
+    font-size: 15px;
+  }
+}

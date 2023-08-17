@@ -1,0 +1,29 @@
+.brand_main{
+  background-color: #fff;
+  .brand_image {
+    width: 100%;
+    height: 115px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    img{
+      width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: all 300ms ease-in;
+    transform: scale(0.9);
+    }
+
+    &:hover{
+      img{
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+

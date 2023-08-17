@@ -1,0 +1,13 @@
+.highliths{
+    margin-bottom: -10px;
+    li{
+        margin-bottom: 10px;
+        .key {
+            font-weight: 500;
+            color: #000;
+        }
+        .value {
+            color: rgb(121,121,121);
+        }
+    }
+}

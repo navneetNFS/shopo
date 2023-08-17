@@ -1,0 +1,27 @@
+.listing_tabs {
+  li {
+    a {
+      padding: 10px 15px !important;
+      display: inline-block;
+      min-width: 120px;
+      position: relative;
+      text-align: center;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-top: 2px solid $primary-color;
+        opacity: 0;
+      }
+
+      &.active {
+        &:after {
+          opacity: 1 !important;
+        }
+      }
+    }
+  }
+}

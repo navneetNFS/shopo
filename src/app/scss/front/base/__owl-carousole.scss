@@ -1,0 +1,23 @@
+.theme-nav{
+  [class^="owl"] {
+    &.owl-next, &.owl-prev{
+      background-color: $primary-color !important;
+      &:hover{
+        background-color: $secondary-color !important;
+        i{
+          color: #fff !important;
+        }
+      }
+    }
+  }
+
+  .owl-dot{
+
+    &.active{
+      span{
+        width: 25px;
+        background-color: $primary-color !important;
+      }
+    }
+  }
+}

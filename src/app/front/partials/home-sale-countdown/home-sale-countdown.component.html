@@ -1,0 +1,38 @@
+<section class="section sale-countdown">
+  <div class="container">
+    <owl-carousel-o [options]="customOptions" class="theme-nav">
+      <ng-template carouselSlide>
+        <div class="sale_item">
+          <img src="../../../../assets/images/campaign-cover-countdown-4.jpg" alt="sale-bg" class="w-100" />
+          <div class="sale_content">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="countdown" [innerHTML]="calculateDiff(responseData[0].sent)">
+                </div>
+                <h4>WOO! Flash Sale</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur qui aspernatur ab numquam, molestias debitis!</p>
+                <a href="javascript: void(0)" class="btn-shopnow">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="sale_item">
+          <img src="../../../../assets/images/campaign-cover-countdown-4.jpg" alt="sale-bg" class="w-100" />
+          <div class="sale_content">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="countdown" [innerHTML]="calculateDiff(responseData[0].sent)">
+                </div>
+                <h4>WOO! Flash Sale</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur qui aspernatur ab numquam, molestias debitis!</p>
+                <a href="javascript: void(0)" class="btn-shopnow">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</section>

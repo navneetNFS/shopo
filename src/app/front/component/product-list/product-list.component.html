@@ -1,0 +1,384 @@
+<div class="container pt-5 pb-5">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-4">
+      <aside class="product-sidebar pt-5 pb-5">
+        <ng-container>
+          <h6>Product categories</h6>
+          <ul class="list-inline pl-0 mb-0">
+            <li><mat-checkbox class="product-checkbox">Mobile & Laptops</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Gaming Entertainment</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Image & Video</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Vehicles</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Furnitures</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Sport</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Food & Drinks</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Fashion Accessories</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Toilet & Sanitation</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Makeup Corner</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Baby Items</mat-checkbox></li>
+          </ul>
+          <hr class="mt-4 mb-4">
+        </ng-container>
+
+        <ng-container>
+          <h6>Price Range</h6>
+          <div>
+            <mat-slider min="200" max="500" class="w-100">
+              <input value="min" matSliderStartThumb>
+              <input value="max" matSliderEndThumb>
+            </mat-slider>
+          </div>
+          <p class="mb-0 price-range">Price: ${{min}} - ${{max}}</p>
+          <hr class="mt-4 mb-4">
+        </ng-container>
+
+
+        <ng-container>
+          <h6>Brands</h6>
+          <ul class="list-inline pl-0 mb-0">
+            <li><mat-checkbox class="product-checkbox">Apple</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Samsung</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Walton</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Oneplus</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Vivo</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Oppo</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Xiomi</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Others</mat-checkbox></li>
+          </ul>
+          <hr class="mt-4 mb-4">
+        </ng-container>
+
+        <ng-container>
+          <h6>Storage</h6>
+          <ul class="list-inline pl-0 mb-0">
+            <li class="list-inline-item">
+              <label for="rdo_storage_1" class="rdo_sqare">
+                <input type="radio" name="storage_radio" id="rdo_storage_1" />
+                <span>64GB</span>
+              </label>
+            </li>
+            <li class="list-inline-item">
+              <label for="rdo_storage_2" class="rdo_sqare">
+                <input type="radio" name="storage_radio" id="rdo_storage_2" />
+                <span>128GB</span>
+              </label>
+            </li>
+            <li class="list-inline-item">
+              <label for="rdo_storage_3" class="rdo_sqare">
+                <input type="radio" name="storage_radio" id="rdo_storage_3" />
+                <span>256GB</span>
+              </label>
+            </li>
+          </ul>
+          <hr class="mt-4 mb-4">
+        </ng-container>
+
+        <ng-container>
+          <h6>Sizes</h6>
+          <ul class="list-inline pl-0 mb-0">
+            <li><mat-checkbox class="product-checkbox">S</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">M</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">L</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">XL</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">XXL</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">XXXL</mat-checkbox></li>
+            <li><mat-checkbox class="product-checkbox">Slim Fit</mat-checkbox></li>
+          </ul>
+          <hr class="mt-4 mb-4">
+        </ng-container>
+
+      </aside>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9">
+      <div class="pagination_info bg-white p-4">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <p class="mb-0">Showing 1–16 of 66 results</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-right">
+            <span class="d-inline-block">Sort By : </span>
+            <select name="" id="" class="form-control w-auto d-inline-block ml-3 border-0 bg-transparent pl-0 rounded-0" style="border-bottom: 1px solid #ccc !important;box-shadow: none !important;">
+              <option value="">Default</option>
+              <option value="">Assending</option>
+              <option value="">Descending</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="product_listing">
+        <section class="section top-product">
+          <div class="pt-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-1.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-2.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-3.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-4.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-1.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-2.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-3.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-4.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-1.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-2.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-3.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="product_box">
+                  <div class="image_portion">
+                    <div class="product_image">
+                      <img src="../../../../assets/images/products/product-image-4.jpg" alt="product image" />
+                    </div>
+                    <div class="product_inner">
+                      <ul class="product_action">
+                        <li><button class="btn_actions"><i class="fa fa-arrows-alt"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-heart-o"></i></button></li>
+                        <li><button class="btn_actions"><i class="fa fa-refresh"></i></button></li>
+                      </ul>
+                      <button class="btn btn-secondary btn-block btn-cart"><i class="fa fa-shopping-bag text-white mr-2"></i> Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <div class="product_content mt-3">
+                    <h5 class="single-line" title="Women's Shirt Dress">Women's Shirt Dress</h5>
+                    <p><del class="mr-2">$9.99</del><span class="text-danger">$6.99</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</div>

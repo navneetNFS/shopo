@@ -1,0 +1,115 @@
+.sale-countdown{
+  padding-bottom: calc(15px + 10px);
+  .owl-nav {
+    margin: 0 !important;
+
+    [class^="owl"] {
+      position: absolute;
+      bottom: -15px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+
+      &.owl-prev{
+        left: 0px;
+      }
+
+      &.owl-next{
+        left: calc(25px + 10px);
+      }
+    }
+  }
+  .owl-dots{
+    text-align: right;
+    .owl-dot{
+      span{
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+      }
+
+      &.active{
+        span{
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+
+
+// sale slider item
+.sale_item {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+  }
+
+  .countdown {
+    margin-bottom: 24px;
+
+    .count_main {
+      display: inline-flex;
+      flex-flow: column wrap;
+      font-size: 19px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+
+      .counter {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+
+        &.day {
+          color: #eb5757 !important;
+        }
+
+        &.hours {
+          color: #2f80ed !important
+        }
+
+        &.minutes {
+          color: #219653 !important;
+        }
+
+        &.seconds {
+          color: #ef5da8 !important
+        }
+      }
+
+      &:last-child {
+        margin-right: 0 !important;
+      }
+    }
+  }
+
+  .sale_content {
+    padding: 35px;
+    min-height: 380px;
+
+    h4 {
+      font-size: 32px;
+    }
+
+    .btn-shopnow {
+      display: inline-block;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #000;
+      padding-right: 20px;
+    }
+  }
+}
